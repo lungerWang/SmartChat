@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/iv_robot_head"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/labi"/>
+
+    <TextView
+        android:id="@+id/tv_received"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_robot_head"
+        android:background="@drawable/chatfrom_bg_normal"
+        android:text="123456"
+        android:layout_marginRight="70dp"/>
+
+    <ImageView
+        android:id="@+id/iv_self_head"
+        android:layout_marginTop="4dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/zjl"/>
+
+    <TextView
+        android:id="@+id/tv_send"
+        android:layout_marginLeft="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/iv_self_head"
+        android:layout_toRightOf="@id/iv_robot_head"
+        android:background="@drawable/chatto_bg_normal"
+        android:text="123456"/>
+</RelativeLayout>
