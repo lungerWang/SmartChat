@@ -12,6 +12,8 @@ Function
 2.语音输入，智能语音回复陪聊  
 3.可选陪聊对象
 <br>
+
+
 Realization principle 实现原理
 --------
 1.集成IFLYTEK语音听写技术（http://www.iflytek.com/），语音输入后，实时将音频转换成文字；<br>
